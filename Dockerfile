@@ -10,10 +10,10 @@ COPY package*.json ./
 # Install project dependencies
 RUN npm install
 
-# Copy the rest of application's source code
+# Copy the rest of the application's source code
 COPY . .
 
-# Expose a port
+# Expose a port to 80
 EXPOSE 80
 
 # Define the command to run your application
